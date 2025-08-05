@@ -18,9 +18,9 @@ const User = ({ fullName, image, city, country, email }: UserProps) => (
       className="rounded-sm mb-2 sm:w-[200px]"
     />
     <div className="px-4">
-      <h2 className="font-bold text-md sm:text-xl">{fullName}</h2>
-      <p>{`${city}, ${country}`}</p>
-      <p>{email}</p>
+      <h2 className="font-bold text-md sm:text-xl">Name: {fullName}</h2>
+      <p> Location: {`${city}, ${country}`}</p>
+      <p> Email: {email}</p>
     </div>
   </div>
 );
